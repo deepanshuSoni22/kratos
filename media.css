@@ -1,0 +1,90 @@
+/* ------------ MEDIA QUERIES ------------ */
+
+@media (max-width: 72rem) {
+    /* 1155px /16px = 72rem */
+    .games-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 56rem) {
+    /* 905px / 16px = 56rem */
+
+    html {
+        font-size: 56.25%;
+        /* 9px / 16px = 56.25% */
+    }
+    
+    .games-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .story-container {
+        grid-template-columns: 1fr;
+    }
+
+    .swap-img {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+}
+
+@media (max-width: 48rem) {
+    /* 767px / 16px = 48rem */
+    .introduction {
+        justify-content: center;
+    }
+
+    .story-text-container {
+        justify-self: center;
+    }
+
+    .story-img-container {
+        justify-self: center;
+    }
+}
+
+@media (max-width: 43rem) {
+    /* 690px / 16px = 43rem */
+    .games-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* TABLETS */
+@media (max-width: 32rem) {
+    /* 515px / 16px = 32rem*/
+
+    html {
+        font-size: 50%;
+        /* 8px / 16px * 100 = 50%*/
+    }
+
+    .games-container {
+        grid-template-columns: 1fr;
+    }
+
+    br {
+        display: inline;
+    }
+}
+
+/* BIG SCREEN MOBILES */
+@media (max-width: 27rem) {
+    /* 411px / 16px = 26rem */
+
+    html {
+        font-size: 43.75%;
+        /* 7px / 16px = 43.75%*/
+    }
+}
+
+/* MEDIUM SCREEN MOBILES */
+@media (max-width: 22rem) {
+    /* 359px / 16px =  22rem*/
+    
+    html {
+        font-size: 37.5%;
+        /* 6px / 16px = 37.5%*/
+    }
+}
